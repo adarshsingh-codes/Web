@@ -1,0 +1,29 @@
+.box{
+    width:200px;
+    padding:20px;     /*padding means the space inside the border*/
+    /*padding: 10px 20px;*/  /*now in this the first 10px represent the top/bottom ans the 20px represents left/right*/
+    border:5px solid black;/*boundary around the  element*/
+    margin: 30px;    /*space outisde the element*/
+    background-color:lightblue;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+button:hover{
+    background:black;
+    
+}
+button{
+    transition:0.3s; /*transiiton makes CSS chanes happen smoothly instead of instantly*/
+}
+a:hover{
+    background-color: red;
+}
