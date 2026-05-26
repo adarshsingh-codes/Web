@@ -1,12 +1,14 @@
-.box{
+/*.box{
     width:200px;
     padding:20px;     /*padding means the space inside the border*/
     /*padding: 10px 20px;*/  /*now in this the first 10px represent the top/bottom ans the 20px represents left/right*/
-    border:5px solid black;/*boundary around the  element*/
-    margin: 30px;    /*space outisde the element*/
-    background-color:lightblue;
+   /* border:5px solid black;/*boundary around the  element*/
+  /*  margin: 30px;    /*space outisde the element*/
+    /*background-color:lightblue;
 }
-
+*
+/
+/*
 *{
     box-sizing:border-box;
 }
@@ -23,7 +25,26 @@ button:hover{
 }
 button{
     transition:0.3s; /*transiiton makes CSS chanes happen smoothly instead of instantly*/
-}
+/*}
 a:hover{
     background-color: red;
+}*/
+
+
+.box{
+    width:300px;
+    height:100px;
+    background:red;
+
+    animation: move 2s infinite;
+}
+
+@keyframes move{
+    from{
+        transform:translateX(0px);
+    }
+
+    to{
+        transform:translateX(300px);
+    }
 }

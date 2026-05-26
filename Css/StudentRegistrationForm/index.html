@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Regisration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Students Registration Form</h2>
+        <i>VIT Chennai Admission Portal</i><br>
+        <img src="phoyo.webp" width="200" height="100" alt="logo">
+    </header>
+    <div class="main">
+        <p><b>Fill the details below: </b></p>
+        <form>
+            <label>Enter your name: </label><br>
+            <input type="text" placeholder="Enter your name" minlength="3" maxlength="15"><br>
+            <label>Enter your email: </label><br>
+            <input type="email" placeholder="Enter your email"><br>
+            <label>Enter your password: </label><br>
+            <input type="password" placeholder="Enter your password"><br>
+            <label>Enter your Age: </label><br>
+            <input type="number" placeholder="Enter your age"><br>
+            <label>Select your gender: </label><br>
+            <input type="radio" name="gender" value="male">male<br>
+            <input type="radio" name="gender" value="female">female<br>
+            <input type="radio" name="gender" value="others">others<br>    
+            <label>Select your Skills: </label><br>
+            <input type="checkbox" name="skills" value="coding">Coding<br>
+            <input type="checkbox" name="skills" value="Webdev">Webdev<br>
+            <input type="checkbox" name="skills" value="DSA">DSA<br>
+            <input type="checkbox" name="skills" value="AI/ML">AI/ML<br>
+            <label>Choose your department: </label><br>
+            <select>
+                <option value=""selected disabled hidden>Select your option</option>
+                <option value="CS">CS</option>
+                <option value="ECE">ECE</option>
+                <option value="ECM">ECM</option>
+                <option value="Mech">Mech</option>
+            </select><br>
+            <label>Select your Date of Birth</label><br>
+            <input type="date"><br><br>
+            <label>Leave your text/comment</label><br>
+            <textarea rows="3" cols="30" placeholder="Leave your comments" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <address>
+            <br> &copy;<abbr title="Vellore Institute Of Technology">VIT</abbr>
+            <br> <a href="#">adarsh.singh2024a@vitstudent.ac.in</a>
+        </address>
+    </footer>
+</body>
+</html>
