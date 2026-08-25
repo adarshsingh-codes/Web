@@ -1,29 +1,33 @@
-// "use strict";  //this line treats all js code as newer version
+// "use strict";  //this line treats all js code as newer version   //generally it is automatic
 
 // //alert("hello");
 // //alert(3+3);   we are using node js not browser
-// //code readability will be high
-// console.log("name");
+// //code readability should be high
+console.log("name");
+console.log(3+3);
+// let name="adars"  //string datatype
+// let age=20;         //number
+// let isLoggedIn=false       //boolean
+// //let state=null;    
 
-// let name="adars"
-// let age=20;
-// let isLoggedIn=false
-// //let state=null;
 
-// //number=>2 to power 53 
-// //bigint 
+//datatypes-primitive
+// //number=>2 to power 52/53 
+// //bigint   ->if number is very big
 // //string =>" "
 // //boolean =>true/false
-// //null =>standalone value
-// //undefined =>
+// //null =>standalone value 
+//null is a representation of empty value  it is a special type
+// //undefined => when a value is ot defined similar to something lke let accountstate;
 // //symbol =>unique
 
 // //object
 
-// console.log(typeof "hitesh");
+// console.log(typeof "hitesh");  //typeof batata h ki kis type ka datatype h
 // console.log(typeof age);
-// console.log(typeof null);  //object
-// console.log(typeof undefined); //undefined
+
+// console.log(typeof null);  //output: object
+// console.log(typeof undefined); //output: undefined
 
 // //data type conversions
 // let score="30"
