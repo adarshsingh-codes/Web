@@ -6,7 +6,7 @@ let negvalue=-value
 
 // console.log(2+2);
 // console.log(2-2);
-// console.log(3**2);
+// console.log(3**2);   //3 to the power 2
 // console.log(2*2);
 // console.log(2/3);
 // console.log(2%3);
@@ -28,9 +28,9 @@ let str2=" Adarsh"
 // console.log( (3 + 4) * 5 % 3); 
 
 // console.log(true);
-// console.log(+true);
+// console.log(+true);      //confusing code 
 // //console.log(true+);  //wrong syntax
-// console.log(+"");
+// console.log(+"");        
 
 let num1,num2,num3
 

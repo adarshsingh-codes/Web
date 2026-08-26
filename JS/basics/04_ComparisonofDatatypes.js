@@ -6,7 +6,8 @@
 
 
 
-//comapre karne se pehle ye zarruru rakhna ki dono ka datatype same ho
+//comapre karne se pehle ye zarruru rakhna ki dono ka datatype same ho  kyuki kabhi klabhar
+// preferable result nhi deta
 // console.log("2" >1); 
 // console.log("02">1);
 
@@ -17,6 +18,11 @@
 
 
 //clean code ka vlaue h
+
+//the reason is that an equlaity check == and comparison > < >= <= work differently.
+//Comparisons convert null to a number, treating it as 0
+//that is why (3) null>=0 is true and (1) null>0 is false;
+
 
 console.log(null>0);
 console.log(null==0);
