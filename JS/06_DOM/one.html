@@ -83,11 +83,15 @@
 
         document.getElementById('title').getAttribute
 
-        document.getElementById('title').getAttribute('class')
+        document.getElementById('title').getAttribute('class')   //getAttribbute gets the existing value
 
+        //another way fo setAttribute
+
+        const title1=document.getElementById('title')
+        title1.classList.add("test");
 
         document.getElementById('title').setAttribute('class','test');   //hamehsa override krega 
-        
+        //HTML allows multiple classes seperated by space 
         document.getElementById('title').setAttribute('class','test heading');  //isliye aese krte h
 
         title.style.backgroundColor='green';
@@ -120,12 +124,12 @@
     //basically we can use the css selectors too
     const pass=document.querySelector('input[type="password"]')
 
-     const myul=document.querySelector('ul')
-     const turnGreen=myul.querySelector('li')
-     turnGreen.style.backgroundColor='green'
+    const myul=document.querySelector('ul')
+    const turnGreen=myul.querySelector('li')
+    turnGreen.style.backgroundColor='green'
 
-     turnGreen.innerText
-     turnGreen.innerText='five'
+    turnGreen.innerText
+    turnGreen.innerText='five'
 </script>
 
 <script>
@@ -136,8 +140,8 @@
     tempList[1].style.color = "green";
     tempList[2].style.backgroundColor = "green";
 
-    tempList.forEach((l)=>{
-        l.style.backgroundColor='blue'
+    tempList.forEach((li)=>{
+        li.style.backgroundColor='blue'
     })
 
     const myH1=document.querySelectorAll('h1')

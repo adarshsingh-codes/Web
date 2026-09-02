@@ -8,18 +8,28 @@
     
 </body>
 <script>
-    const div=document.createElement('div');
+
+    //create a new DOM element from JS
+
+
+    const div=document.createElement('div');    //create a <div> 
     console.log(div);
-    div.className="main"
-    div.id=Math.round(Math.random()*10+1);
-    div.setAttribute("title","genrate title")
+    div.className="main"    //giving the <div> a class name sp <div class="main"> </div>
+    div.id=Math.round(Math.random()*10+1);   //simialrly giving an id
+    div.setAttribute("title","genrate title")        //now it will be < div class=""  id="" title=""></div>
     div.style.backgroundColor="green"
     div.style.padding="12px"
     //div.innerHTML="Chai aur code" 
 
-    const addtext=document.createTextNode("chai aur code");
+    const addtext=document.createTextNode("chai aur code");   //creates an independent text node , not inside div yet
+
     div.appendChild(addtext)
 
-    document.body.appendChild(div)
+    //now we have
+    //<div class="main" id="7" title="genrate title">
+    //chai aur code
+    //</div>
+
+    document.body.appendChild(div)  //NOW PUTTING IT ON WEBPAGE
 </script>
 </html>
